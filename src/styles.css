@@ -2,11 +2,6 @@
 @import "bootstrap-icons/font/bootstrap-icons.css";
 @import "../src/assets/css/defaultStyle.css";
 
-.active{
-    color: rgba(255,255,255) !important;
-    font-weight: 600;
-}
-
 .btn-rounded {
     border-radius: 2rem;
 }
@@ -16,9 +11,10 @@
     color: var(--white-color);
 }
 
-a.blue-default:hover,button.blue-default:hover {
+a.blue-default:hover,
+button.blue-default:hover {
     background-color: #1f4b7dde;
-    color: var(--white-color);;
+    color: var(--white-color);
 }
 
 .blue-default-text {

@@ -6,8 +6,9 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./table.component.css']
 })
 export class TableComponent implements OnInit {
-@Input() tableHeadings:any;
-@Input() tableData:any;
+  @Input() tableHeadings: any;
+  @Input() tableData: any;
+  @Input() imageTable: any;
   constructor() { }
 
   ngOnInit(): void {

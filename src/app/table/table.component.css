@@ -1,0 +1,17 @@
+.gradient-blue{
+    background-image: linear-gradient(#1D4470,#0F2238);
+}
+
+.round{
+    border-radius: 50%;
+}
+
+.name{
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+div{
+    height: 70vh;
+    overflow-y: scroll;
+}

@@ -1,0 +1,15 @@
+<div>
+  <table class="table table-hover text-center shadow-sm align-middle">
+    <thead class="gradient-blue text-light" style="line-height: 2.5rem;">
+      <tr>
+        <th *ngFor="let heading of tableHeadings">{{heading}}</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let tableData of tableData let i = index">
+        <td *ngIf="imageTable"><img src="{{tableData[0]}}" height="70" class="round"></td>
+        <td *ngFor="let data of tableData | slice: 1;let i = index" [class.name]="i == 0">{{data}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
